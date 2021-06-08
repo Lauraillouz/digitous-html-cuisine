@@ -11,3 +11,8 @@ header {
     height: 70px;
     width: 70px;
 }
+
+.thumbnail {
+    max-width: 30%;
+    height: auto;
+}
