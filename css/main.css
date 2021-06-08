@@ -1,0 +1,15 @@
+/* Polices d'écriture */
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Courgette;
+    src: url(../fonts/Courgette/Courgette-Regular.ttf)
+}
+.courgette {
+    font-family: Courgette;
+}
+.oswald {
+    font-family: Oswald;
+}
