@@ -6,8 +6,14 @@ header {
 }
 
 /* Photos team */
-.resize-team {
+.border-radius-circle {
+    border-radius: 1000px;
     width: 100px;
     height: auto;
-    border-radius: 1000px;
+}
+@media (max-width:991px) {
+    .border-radius-circle {
+        width: 300px;
+        height: auto;
+    }
 }
