@@ -33,3 +33,9 @@ header {
 textarea {
     height: 100px;
 }
+
+/* Logo gris */
+.gray {
+    background-color: grey;
+    opacity: 0.5;
+}
