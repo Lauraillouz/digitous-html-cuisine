@@ -3,13 +3,33 @@
     height: 88px;
 }
 
-/* background image */
+/* background header */
 header {
     background-image: url(../img/articles/suzette/suzette-header.jpg);
     height: 500px;
     background-position: center;
 }
-
 .background-overlay {
     background-color: rgba(0,0,0,0.8);
+}
+
+/* Lettrine */
+.drop-cap::first-letter {
+    float:left;
+    font-size: 4.5rem;
+    line-height: 0.1;
+    margin: 0.1em 0.1em 0.2em 0;
+    font-weight: bold;
+    color: lightgray;
+}
+
+/* Photo Antoine */
+.resize-antoine-post {
+    width: 150px;
+    height: auto;
+}
+
+/* Longueur commentaire */
+textarea {
+    height: 100px;
 }
