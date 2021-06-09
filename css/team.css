@@ -1,0 +1,13 @@
+/* background image */
+header {
+    background-image: url(../img/team/team.jpg);
+    height: 500px;
+    background-position: center;
+}
+
+/* Photos team */
+.resize-team {
+    width: 100px;
+    height: auto;
+    border-radius: 1000px;
+}
