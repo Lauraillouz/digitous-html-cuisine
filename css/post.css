@@ -1,0 +1,15 @@
+/* Ajustement Overlay */
+.overlay {
+    height: 88px;
+}
+
+/* background image */
+header {
+    background-image: url(../img/articles/suzette/suzette-header.jpg);
+    height: 500px;
+    background-position: center;
+}
+
+.background-overlay {
+    background-color: rgba(0,0,0,0.8);
+}
