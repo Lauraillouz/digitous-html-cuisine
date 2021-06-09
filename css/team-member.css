@@ -1,0 +1,12 @@
+/* background image */
+header {
+    background-image: url(../img/team/team.jpg);
+    height: 500px;
+    background-position: center;
+}
+
+/* Image Antoine */
+.resize-antoine {
+    width: 300px;
+    height: 300px;
+}

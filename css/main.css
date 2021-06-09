@@ -34,3 +34,8 @@
 footer {
     background: black;
 }
+
+/* Images team */
+.border-radius-circle {
+    border-radius: 1000px;
+}
