@@ -8,6 +8,7 @@ header {
 /* Arrondi background ingrédients */
 .ingredients-border {
     border-radius: 20px;
+max-height: 35px;
 }
 
 /* Positions photos recettes */
@@ -18,8 +19,23 @@ header {
 .absolute-recipe {
     position: absolute;
     bottom: -17px;
+    left: 10px;
 }
 .resize-recipe {
-    max-width: 300px;
+    max-width: 100%;
     height: auto;
+}
+
+@media (min-width:1000px) {
+    .relative-recipe {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .resize-recipe {
+        min-width: 200px;
+        height: auto;
+    }
 }

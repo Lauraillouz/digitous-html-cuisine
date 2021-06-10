@@ -61,84 +61,102 @@
     </header>
 
     <main>
-        <div class="ms-3 me-3 mt-4">
-            <div class="d-flex justify-content-between">
-                <h1 class="courgette">Paëlla</h1>
+        <div class="row ms-3 me-3 mt-4">
+            <div class="col-0 col-lg-2 order-md-last d-none d-lg-block">
+                <form>
+                    <label class="courgette">Recherche</label>
+                    <input class="form-control me-2 oswald" type="search" placeholder="Recherche..." aria-label="search">
+                    <button class="btn btn-outline-dark oswald col-lg-12" type="submit">Ok</button>
+                    <label class="courgette mt-3">Newsletter</label>
+                    <input type="email" class="form-control oswald" id="exampleInputEmail1" placeholder="Email...">
+                    <button class="btn btn-outline-dark oswald col-lg-12" type="submit">S'inscrire</button>
+                </form>
+                <!--Recherche + Newsletter-->
+                <h6 class="courgette">Partager</h6>
                 <div>
-                    <p class="oswald bg-light ps-3 pe-5 pt-2 pb-2 mb-1 text-center"><i class="fas fa-stopwatch pe-2 ps-4"></i>Préparation - 2h</p>
-                    <p class="oswald bg-light ps-3 pe-5 pt-2 pb-2 text-center"><i class="far fa-hourglass pe-2 ps-4"></i>Cuisson - 1h</p>
+                    <i class="fab fa-facebook-square ps-2 pe-2"></i>
+                    <i class="fab fa-instagram ps-2 pe-2"></i>   
+                    <i class="fab fa-youtube ps-2 pe-2"></i>
+                    <i class="fab fa-twitter ps-2 pe-2"></i>    
                 </div>
+                <!--Réseaux sociaux-->
             </div>
-            <!--Titre + temps de cuisson-->
-            <div class="d-flex flex-wrap">
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">6 moules</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">1/2 poulet</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">125g de porc maigre</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">60g de chorizo</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">Amandes d'Espagne</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">4 crevettes</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">1/2 verre d'huile d'olive</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">3 cuillères de vin</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">1 oignon</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">2 gousses d'ail</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">2 tomates</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">1 piment doux</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">250g de riz</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">Du persil</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">Poivre de Cayenne</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">2 verres de bouillon</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">Poivre noir</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">Sel</p>
-                <p class="oswald bg-secondary text-light ps-3 pe-3 pt-1 pb-1 ingredients-border me-1">125g de petit pois</p>
-            </div>
-            <!--Liste d'ingrédients-->
-            <div class="mt-3">
-                <h5 class="courgette">Etape 1</h5>
-                <p class="oswald text-secondary">Verser la moitié de l'huile dans une très large poêle, y faire dorer le poulet, le porc et la saucisse jusqu'à mi-cuisson, puis les retirer.</p>
-                <h5 class="courgette">Etape 2</h5>
-                <p class="oswald text-secondary">Pendant ce temps, faire ouvrir les moules et les coques dans le vin blanc avec 2 cuillères à soupe d'oignons émincés et de persil haché.</p>
-                <h5 class="courgette">Etape 3</h5>
-                <p class="oswald text-secondary">Les mettre de côté et réserver le jus filtré.</p>
-                <h5 class="courgette">Etape 4</h5>
-                <p class="oswald text-secondary">Rajouter les crevettes ou langoustines dans la poêle avec la viande, les faire sauter puis retirer le tout et réserver.</p>
-                <h5 class="courgette">Etape 5</h5>
-                <p class="oswald text-secondary">Remettre un peu d'huile et faire suer l'oignon d'Espagne et 2 gousses d'ail émincées dans la poêle.</p>
-                <h5 class="courgette">Etape 6</h5>
-                <p class="oswald text-secondary">Rajouter les tomates pelées et coupées, les piments émincés et laisser cuire doucement pendant 5 min, en remuant constamment.</p>
-                <h5 class="courgette">Etape 7</h5>
-                <p class="oswald text-secondary">Retirer tout le mélange de la poêle, et rajouter le reste d'huile.</p>
-                <h5 class="courgette">Etape 8</h5>
-                <p class="oswald text-secondary">Faire chauffer l'huile et y verser le riz.</p>
-                <h5 class="courgette">Etape 9</h5>
-                <p class="oswald text-secondary">Remuer à la spatule et laisser le riz devenir transparent et crépiter.</p>
-                <h5 class="courgette">Etape 10</h5>
-                <p class="oswald text-secondary">A ce moment, verser le bouillon très chaud, l'eau des moules et le safran délayé dans un peu d'eau chaude.</p>
-                <h5 class="courgette">Etape 11</h5>
-                <p class="oswald text-secondary">Remettre tous les ingrédients sauf les petits pois.</p>
-                <h5 class="courgette">Etape 12</h5>
-                <p class="oswald text-secondary">Porter à ébullition doucement et laisser mijoter 15 min sans remuer.</p>
-                <h5 class="courgette">Etape 13</h5>
-                <p class="oswald text-secondary">Rajouter les petits pois et le reste de la langouste, puis placer en surface quelques crevettes, moules, coques et morceaux de poulet.</p>
-                <h5 class="courgette">Etape 14</h5>
-                <p class="oswald text-secondary">Couvrir, et prolongez la cuisson de 5 à 10 min, le riz doit avoir absorbé tout le jus tout en gardant une texture ferme</p>
-            </div>
-            <div class="container d-flex">
-                <div class="col-lg-4">
-                    <div class="relative-recipe ms-5 me-5">
-                        <img class="resize-recipe" src="img/recipes/sponsored/dessert1.jpg">
-                        <p class="oswald bg-light text-secondary absolute-recipe">Lien sponsorisé</p>
+            <!--Sidebar-->
+            <div class="col-lg-10">
+                <div class="d-flex justify-content-between">
+                    <h1 class="courgette">Paëlla</h1>
+                    <div>
+                        <p class="oswald bg-light ps-3 pe-5 pt-2 pb-2 mb-1 text-center"><i class="fas fa-stopwatch pe-2 ps-4"></i>Préparation - 2h</p>
+                        <p class="oswald bg-light ps-3 pe-5 pt-2 pb-2 text-center"><i class="far fa-hourglass pe-2 ps-4"></i>Cuisson - 1h</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="relative-recipe ms-5 me-5">
-                        <img class="relative-recipe resize-recipe" src="img/recipes/sponsored/side1.jpg">
-                        <p class="oswald bg-light text-secondary absolute-recipe">Lien sponsorisé</p>
+                <!--Titre + temps de cuisson-->
+                <div class="row">
+                    <div class="d-flex flex-wrap col-lg-3 col-12 align-self-start">
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">6 moules</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">1/2 poulet</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">125g de porc maigre</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">60g de chorizo</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">Amandes d'Espagne</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">4 crevettes</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">1/2 verre d'huile d'olive</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">3 cuillères de vin</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">1 oignon</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">2 gousses d'ail</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">2 tomates</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">1 piment doux</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">250g de riz</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">Du persil</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">Poivre de Cayenne</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">2 verres de bouillon</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">Poivre noir</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">Sel</p>
+                        <p class="oswald bg-secondary text-light px-3 py-1 ingredients-border me-1">125g de petit pois</p>
+                    </div>
+                    <!--Liste d'ingrédients-->
+                    <div class="mt-3 col-lg-9 col-12">
+                        <h5 class="courgette">Etape 1</h5>
+                        <p class="oswald text-secondary">Verser la moitié de l'huile dans une très large poêle, y faire dorer le poulet, le porc et la saucisse jusqu'à mi-cuisson, puis les retirer.</p>
+                        <h5 class="courgette">Etape 2</h5>
+                        <p class="oswald text-secondary">Pendant ce temps, faire ouvrir les moules et les coques dans le vin blanc avec 2 cuillères à soupe d'oignons émincés et de persil haché.</p>
+                        <h5 class="courgette">Etape 3</h5>
+                        <p class="oswald text-secondary">Les mettre de côté et réserver le jus filtré.</p>
+                        <h5 class="courgette">Etape 4</h5>
+                        <p class="oswald text-secondary">Rajouter les crevettes ou langoustines dans la poêle avec la viande, les faire sauter puis retirer le tout et réserver.</p>
+                        <h5 class="courgette">Etape 5</h5>
+                        <p class="oswald text-secondary">Remettre un peu d'huile et faire suer l'oignon d'Espagne et 2 gousses d'ail émincées dans la poêle.</p>
+                        <h5 class="courgette">Etape 6</h5>
+                        <p class="oswald text-secondary">Rajouter les tomates pelées et coupées, les piments émincés et laisser cuire doucement pendant 5 min, en remuant constamment.</p>
+                        <h5 class="courgette">Etape 7</h5>
+                        <p class="oswald text-secondary">Retirer tout le mélange de la poêle, et rajouter le reste d'huile.</p>
+                        <h5 class="courgette">Etape 8</h5>
+                        <p class="oswald text-secondary">Faire chauffer l'huile et y verser le riz.</p>
+                        <h5 class="courgette">Etape 9</h5>
+                        <p class="oswald text-secondary">Remuer à la spatule et laisser le riz devenir transparent et crépiter.</p>
+                        <h5 class="courgette">Etape 10</h5>
+                        <p class="oswald text-secondary">A ce moment, verser le bouillon très chaud, l'eau des moules et le safran délayé dans un peu d'eau chaude.</p>
+                        <h5 class="courgette">Etape 11</h5>
+                        <p class="oswald text-secondary">Remettre tous les ingrédients sauf les petits pois.</p>
+                        <h5 class="courgette">Etape 12</h5>
+                        <p class="oswald text-secondary">Porter à ébullition doucement et laisser mijoter 15 min sans remuer.</p>
+                        <h5 class="courgette">Etape 13</h5>
+                        <p class="oswald text-secondary">Rajouter les petits pois et le reste de la langouste, puis placer en surface quelques crevettes, moules, coques et morceaux de poulet.</p>
+                        <h5 class="courgette">Etape 14</h5>
+                        <p class="oswald text-secondary">Couvrir, et prolongez la cuisson de 5 à 10 min, le riz doit avoir absorbé tout le jus tout en gardant une texture ferme</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="relative-recipe ms-5 me-5">
-                        <img class="resize-recipe" src="img/recipes/sponsored/dessert2.jpg">
-                        <p class="oswald bg-light text-secondary absolute-recipe">Lien sponsorisé</p>
+                <div class="row">
+                    <div class="col-6 offset-3 offset-md-0 col-md-3 mx-lg-0 mb-4 relative-recipe">
+                            <img class="resize-recipe" src="img/recipes/sponsored/dessert1.jpg">
+                            <p class="oswald bg-light text-secondary absolute-recipe">Lien sponsorisé</p>
+                    </div>
+                    <div class="col-6 offset-3 offset-md-0 col-md-3 mx-lg-5 mb-4 relative-recipe">
+                            <img class="resize-recipe" src="img/recipes/sponsored/side1.jpg">
+                            <p class="oswald bg-light text-secondary absolute-recipe">Lien sponsorisé</p>
+                    </div>
+                    <div class="col-6 offset-3 offset-md-0 col-md-3 ms-lg-5 mb-4 relative-recipe">
+                            <img class="resize-recipe" src="img/recipes/sponsored/dessert2.jpg">
+                            <p class="oswald bg-light text-secondary absolute-recipe">Lien sponsorisé</p>
                     </div>
                 </div>
             </div>
