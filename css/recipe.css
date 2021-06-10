@@ -1,0 +1,25 @@
+/* background image */
+header {
+    background-image: url(../img/recipes/paella/paella-header.jpg);
+    height: 500px;
+    background-position: center;
+}
+
+/* Arrondi background ingrédients */
+.ingredients-border {
+    border-radius: 20px;
+}
+
+/* Positions photos recettes */
+.relative-recipe {
+    position: relative;
+    height: 100%;
+}
+.absolute-recipe {
+    position: absolute;
+    bottom: -17px;
+}
+.resize-recipe {
+    max-width: 300px;
+    height: auto;
+}
