@@ -10,4 +10,4 @@
 * Bootstrap
 
 ## Visualiser le projet
-[Cui'zine](https://lauraillouz.github.io/digitous-html-cuisine/post.html)
+[Cui'zine](https://lauraillouz.github.io/digitous-html-cuisine/index.html)
