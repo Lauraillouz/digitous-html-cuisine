@@ -5,7 +5,7 @@
 * The website is responsive
 * Must: use bootstrap classes and avoid as much as possible css
 
-## Stack
+## Technologies
 * HTML
 * CSS
 * Bootstrap
